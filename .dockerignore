@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.DS_Store
+
+# Git and IDE files
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# Docker itself
+Dockerfile
+.dockerignore
+
+# Data folders (if you don’t want to send training sets)
+datasets/
+runs/
+
+# Large files (optional)
+*.zip
+*.tar
+*.tar.gz
+
+# YOLO training weights (keep only final one if needed)
+*.pt
+!model/best.pt  # <-- keep only the one you actually use
